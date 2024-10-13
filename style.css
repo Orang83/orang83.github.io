@@ -39,7 +39,7 @@ nav ul{
     float:left;
     position:absolute;
     top: 0px;
-    left: 45%;
+    left: 40%;
   
 }
 
@@ -166,4 +166,21 @@ nav ul li a{
 }
 .photo-container:hover .overlay {
     opacity: 1; 
+}
+/* Sitemap */
+.photo-sitemap img{
+    position: absolute;
+    top:30%;
+    left:45%;
+}
+.photo-sitemap img:hover{
+    cursor:zoom-in;
+}
+
+.photo-sitemap img:active{
+    position: absolute;
+    top:30%;
+    left:45%;
+   
+    transform: scale(1.8);
 }
